@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Multicolor background</title>
+
+	<style>
+		.main
+		{
+			height: 700px; width: 100%; float: left; 
+			background:#466368;
+			background:-webkit-linear-gradient(#303133, #571a63 ,#9631aa, #e59d52);
+		}
+		.left
+		{
+			height: 650px;
+			width: 30%;
+			float: left;
+			border:1px solid black;
+			margin-left: 240px;
+		}
+		.right
+		{
+			height: 650px;
+			width: 30%;
+			float: right;
+			border:1px solid black;
+			margin-right: 240px;
+		}
+		.leftbox
+		{
+			height: 80px;
+			width: 92%;
+			border: 0px solid black;
+			background-color: rgba(255,255,255,.1);
+			margin-top: 20px;
+			padding: 15px;
+		}
+		.rightbox
+		{
+			height:80px; 
+			width:92%;
+			border:1px solid black;
+			background-color: rgba(21, 85, 150,.1);
+			margin-top: 20px;
+		}
+	</style>
+</head>
+<body style="margin: 0px;">
+<div class="main">
+<!--LEFT DIV-->
+	<div class="left">
+			<div class="leftbox">
+				<!--<b style="float: left; font-size: 22px; color: #ffffff; font-family: courier;padding: 10px;">Name</b>-->
+				<label>Name</label>
+				<input type="text" name="name" style="height: 23px; width: 90%;" >
+			</div>
+			<div class="leftbox">
+				<b style="float: left; font-size: 22px; color: #ffffff; font-family: courier;padding: 10px;">Company</b>
+				<input type="text" name="name" style="height: 23px; width: 90%" >
+			</div>
+			<div class="leftbox">
+				<b style="float: left; font-size: 22px; color: #ffffff; font-family: courier;padding: 10px;">Telephone</b>
+				<input type="text" name="name" style="height: 23px; width: 90%" >
+			</div>
+			<div class="leftbox">
+				<b style="float: left; font-size: 22px; color: #ffffff; font-family: courier;padding: 10px;">Email</b>
+				<input type="text" name="name" style="height: 23px; width: 90%" >
+			</div>
+	</div>
+<!--RIGHT DIV-->
+	<div class="right">
+		<div class="leftbox">
+			<b style="float: left; font-size: 22px; color: #ffffff; font-family: courier; padding: 10px;">Email Address</b>
+			<input type="text" name="name" style="height: 23px; width: 90%" >
+		</div>
+
+		<input type="button" name="Subscribe" value="Subscribe" style="height: 40px; width: 30%; background-color: rgba(21, 85, 150,0);border: 2px solid black; border-radius: 10%; color: #ffffff; float: left;"><br><br><br>
+
+		<b style=" font-size: 22px; color: #ffffff; font-family: courier; padding: 10px;">Our location</b>
+
+		<div class="">
+			
+		</div>
+
+	</div>
+</div>
+</body>
+</html>
